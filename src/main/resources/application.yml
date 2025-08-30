@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: stream-api
+  data:
+    mongodb:
+      uri: mongodb+srv://${MONGO_DB_USERNAME}:${MONGO_DB_PASSWORD}@cluster.xmvokzs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster
+      database: stream
